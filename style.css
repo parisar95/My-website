@@ -1,0 +1,138 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+.bg {
+    background-image: url("city.jpg");
+    height: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+.bg2 {
+  background-color: #555555;
+}
+
+.bg3{
+  background-image: url("stars.jpg");
+    height: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.aboutmebg{
+  background-image: url("black2.jpg");
+  height: 60%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg4{
+  background-color: 555555;
+}
+
+h1 { 
+    color: #ffffff; 
+    font-family: 'Cookie';
+    font-size: 90px;
+
+}
+
+h3 {
+    color: #ffffff; 
+    font-family: 'Fjalla One';
+  }
+
+
+p {
+  color: #ffffff;
+  font-family: 'Tahoma';
+  font-size: 20px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+
+* {box-sizing:border-box}
+
+.skills {
+    text-align: right; 
+    padding-right: 20px; 
+    line-height: 40px; 
+    color: #FFFFFF; 
+}
+
+.html {
+  width: 80%; 
+  background-color: #C433FF;
+}
+
+.css {
+  width: 75%; 
+  background-color: #2196F3;
+} 
+
+.js {
+  width: 70%; 
+  background-color: #33ff49;
+} 
+
+.sql {
+  width: 60%; 
+  background-color: #ff3333;
+} 
+
+.c {
+  width: 60%;
+  background-color: #ff1a75;
+}
+
+.container2 {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #333333;
+}
+
+.container2:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: #FFFFFF;
+  font-family: 'Georgia';
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
